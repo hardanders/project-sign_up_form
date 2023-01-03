@@ -1,0 +1,152 @@
+@font-face {
+    font-family: odinFont;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.form-intro {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.form-form,
+.form-intro,
+.form-bottom {
+    padding: 32px 50px;
+}
+
+.intro-btm {
+    margin-top: 32px;
+}
+
+label {
+    font-weight: bold;
+    color: rgba(30,40,55,255);
+}
+
+.background-main {
+    height: 100vh;
+    width: 35vw;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+input {
+    height: 32px;
+    width: 20rem;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 217, 217);
+    font-size: 24px;
+}
+
+.form-main {
+    width: 65vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-form {
+    background-color: #eee;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 0px 4px 10px rgb(197, 192, 192);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+form {
+    display: flex;
+    gap: 64px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-intro {
+    font-size: 32px;
+    font-weight: bold;
+    width: 80%;
+    justify-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 175px;
+    width: 100%;
+    justify-content: center;
+
+    position: absolute;
+    top: 250px;
+
+    background-color: rgba(0,0,0, .35);
+}
+
+.logo-txt {
+    color: white;
+    font-size: 128px;
+    font-family: odinFont;
+}
+
+.logo-pic {
+    height: 150px;
+    width: auto;
+}
+
+.right-clmn,
+.left-clmn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 24px
+}
+
+.create_button {
+    height: 64px;
+    width: 288px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+
+    margin-bottom: 24px;
+
+    background-color: rgb(88, 109, 73);
+
+    color: white;
+    font-weight:700;
+}
+
+.account-text {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 109, 73);
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding: 0px 0px 0px 8px;
+}
